@@ -2,7 +2,7 @@ const categories = [
     { name: "Events" },
     { name: "Businesses" },
     { name: "Pictures" },
-    { name: "Polls" },
+    { name: "Sign-Ups" },
   ];
   
   export default function CategoryGrid() {

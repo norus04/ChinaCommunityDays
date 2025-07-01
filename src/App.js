@@ -3,6 +3,7 @@ import TopBanner from './components/TopBanner';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import CategoryGrid from './components/CategoryGrid';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <HeroSection />
       <CategoryGrid />
+      <Footer />
     </>
   );
 }
