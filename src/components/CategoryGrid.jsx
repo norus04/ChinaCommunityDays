@@ -1,7 +1,7 @@
 const categories = [
     { name: "Events", icon: "/images/ccd-events.png" },
     { name: "Businesses", icon: "/images/clp-logo.png" },
-    { name: "Pictures", icon: "/images/ccd-bear.png" },
+    { name: "Pictures", icon: "/images/ccd-fireworks.png" },
     { name: "Sign-Ups", icon: "/images/ccd-signups.png" },
   ];
   
