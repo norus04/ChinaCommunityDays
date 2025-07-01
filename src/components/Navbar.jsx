@@ -1,19 +1,14 @@
-import { Link } from 'react-router-dom';
-import './Navbar.css';
-
-function Navbar() {
+export default function Navbar() {
   return (
-    <nav className="navbar">
-      <ul className="nav-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/community-days">Community Days</Link></li>
-        <li><Link to="/local-businesses">Local Businesses</Link></li>
-        <li><Link to="/polls">Polls</Link></li>
-        <li><Link to="/community-photos">Community Photos</Link></li>
-        <li><Link to="/admin">Admin Panel</Link></li>
-      </ul>
-    </nav>
+    <div className="navbar">
+      <div style={{ fontSize: '30px', fontFamily: 'serif' }}>
+        China Community Days <span style={{ fontSize: '18px' }}>est. 2004</span>
+      </div>
+      <div className="nav-links">
+        {["Events", "Businesses", "Pictures", "Polls"].map(link => (
+          <a key={link} href="#">{link}</a>
+        ))}
+      </div>
+    </div>
   );
 }
-
-export default Navbar; 

@@ -1,27 +1,17 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import './styles.css';
+import TopBanner from './components/TopBanner';
 import Navbar from './components/Navbar';
-import Home from './pages/Home';
-import CommunityDays from './pages/CommunityDays';
-import LocalBusinesses from './pages/LocalBusinesses';
-import Polls from './pages/Polls';
-import CommunityPhotos from './pages/CommunityPhotos';
-import AdminPanel from './pages/AdminPanel';
+import HeroSection from './components/HeroSection';
+import CategoryGrid from './components/CategoryGrid';
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
+      <TopBanner />
       <Navbar />
-      <div style={{ padding: '2rem' }}>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/community-days" element={<CommunityDays />} />
-          <Route path="/local-businesses" element={<LocalBusinesses />} />
-          <Route path="/polls" element={<Polls />} />
-          <Route path="/community-photos" element={<CommunityPhotos />} />
-          <Route path="/admin" element={<AdminPanel />} />
-        </Routes>
-      </div>
-    </BrowserRouter>
+      <HeroSection />
+      <CategoryGrid />
+    </>
   );
 }
 
