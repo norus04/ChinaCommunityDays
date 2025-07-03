@@ -7,12 +7,12 @@ import CategoryGrid from './components/CategoryGrid';
 
 function App() {
   return (
-    <div>
+    <>
       <TopBanner />
       <Navbar />
       <HeroSection />
       <CategoryGrid />
-    </div>
+    </>
   );
 }
 
