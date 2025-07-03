@@ -1,131 +1,211 @@
-/* styles.css */
 body {
-    margin: 0;
-  }
-  
-  .top-banner {
-    background-color: rgba(0, 0, 0, 0.85);
-    color: white;
-    text-align: center;
-    padding: 0.5rem;
-    font-size: 14px;
-    position: relative;
-    font-family: Segoe UI;
-    font-weight: bold;
-  }
-  
-  .location {
-    position: absolute;
-    right: 10rem;
-    top: 0.5rem;
-    font-family: Segoe UI;
-  }
-  
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #EDEAE5;
-    font-family: Segoe UI;
-  }
-  
-  .nav-links a {
-    margin: 0 1rem;
-    text-decoration: none;
-    color: black;
-    font-size: 18px;
-  }
-  
-  .hero {
-    background-image: url('/public/images/china-lake.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    position: relative;
-  }
-  
-  .hero-search {
-    position: absolute;
-    top: 35%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 0.75rem 1.5rem;
-    width: 50%;
-    border-radius: 30px;
-    border: none;
-    font-size: 16px;
-    background: rgba(0,0,0,0.6);
-    color: white;
-    outline: 1px solid white;
-    font-family: sans-serif;
-  }
-  
-  .hero-categories-overlay {
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    z-index: 2;
-  }
-  
-  .hero-categories-overlay .category-grid {
-    background: none;
-    padding: 0;
-    gap: 2rem;
-  }
-  
+  margin: 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+input, button {
+  font-family: inherit;
+}
+
+/* TopBanner styles */
+.top-banner {
+  background: #04AB5D;
+  color: #fff;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+  padding-left: 32px;
+  padding-right: 32px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1rem;
+}
+
+.weather-widget {
+  background: #279541;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Navbar styles */
+.navbar {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  padding: 0 32px;
+  min-height: 100px;
+  position: relative;
+}
+.navbar-logo {
+  position: absolute;
+  left: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.logo-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: 'EB Garamond', Garamond, Serif;
+}
+.logo-sub {
+  font-size: 1rem;
+  color: #444;
+  margin-top: -4px;
+  font-family: 'EB Garamond', Garamond, Serif;
+}
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin-left: 350px;
+  padding: 0;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.navbar-links li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.navbar-links li:hover {
+  color: #04AB5D;
+}
+
+/* HeroSection styles */
+.hero-section {
+  position: relative;
+  height: 400px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+.hero-bg {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: url('/public/images/China-Lake.png') center center/cover no-repeat;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  filter: brightness(0.92);
+}
+.hero-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+}
+.search-bar {
+  background: rgba(0,0,0,0.4);
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  height: 56px;
+  width: 420px;
+  max-width: 90vw;
+  margin-bottom: 200px;
+}
+.search-bar input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  color: #fff;
+  font-size: 1.3rem;
+  outline: none;
+  padding: 0 12px;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.search-bar input::placeholder {
+  color: #ffffff86;
+  opacity: 1;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+.search-btn {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 8px;
+  transition: color 0.2s;
+}
+.search-btn:hover {
+  color: #04AB5D;
+}
+
+/* CategoryGrid styles */
+.category-grid {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: -60px;
+  margin-bottom: 32px;
+  z-index: 3;
+  position: relative;
+}
+.category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  justify-content: center;
+  transition: box-shadow 0.2s, transform 0.2s;
+  cursor: pointer;
+}
+.category-item:hover {
+  box-shadow: 0 4px 24px rgba(41,154,74,0.18);
+  transform: translateY(-4px) scale(1.04);
+}
+.category-image {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+  object-fit: contain;
+  display: block;
+}
+.category-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: rgb(57, 53, 53);
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin-top: -40px;
+  margin-bottom: 20px;
+}
+@media (max-width: 900px) {
   .category-grid {
-    background-color: #EDEAE5;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 2rem;
-    gap: 2rem;
+    gap: 18px;
   }
-  
-  .category {
-    text-align: center;
-    font-family: Segoe UI;
-    font-size: 18px;
-    color: white;
-    text-shadow: 0 2px 8px rgba(0,0,0,0.9);
-  }
-  
-  .category-icon {
-    background-color: white;
-    border-radius: 50%;
+  .category-item {
     width: 80px;
     height: 80px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 28px;
-    margin: 0 auto 0.5rem;
-    box-shadow: 0 5px 2px black;
   }
-  
-  .footer {
-    background: rgba(0, 0, 0, 0.85);
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    font-size: 16px;
-    font-family: Segoe UI;
-    margin-top: 0rem;
+  .category-image {
+    width: 60px;
+    height: 60px;
   }
-  
-  .email-copy-button {
-    background: none;
-    border: none;
-    color: white;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: Segoe UI;
-    margin: 0 0.5rem;
-    text-decoration: underline;
-    padding: 0;
+  .category-label {
+    font-size: 0.9rem;
   }
+}

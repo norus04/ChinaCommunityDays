@@ -1,19 +1,18 @@
+import React from 'react';
 import './styles.css';
 import TopBanner from './components/TopBanner';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
-// import CategoryGrid from './components/CategoryGrid';
-import Footer from './components/Footer';
+import CategoryGrid from './components/CategoryGrid';
 
 function App() {
   return (
-    <>
+    <div>
       <TopBanner />
       <Navbar />
       <HeroSection />
-      {/* <CategoryGrid /> */}
-      <Footer />
-    </>
+      <CategoryGrid />
+    </div>
   );
 }
 

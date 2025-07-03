@@ -1,13 +1,15 @@
-import CategoryGrid from './CategoryGrid';
+import React from 'react';
 
-export default function HeroSection() {
-    return (
-      <div className="hero">
-        <input placeholder="What are you looking for?" className="hero-search" />
-        <div className="hero-categories-overlay">
-          <CategoryGrid />
-        </div>
+const HeroSection = () => (
+  <section className="hero-section">
+    <div className="hero-bg" />
+    <div className="hero-content">
+      <div className="search-bar">
+        <input type="text" placeholder="Search this site" />
+        <button className="search-btn">→</button>
       </div>
-    );
-  }
-  
+    </div>
+  </section>
+);
+
+export default HeroSection; 
