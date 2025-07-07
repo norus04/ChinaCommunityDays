@@ -246,3 +246,62 @@ input, button {
     padding: 0 4px;
   }
 }
+
+.signup-page {
+  max-width: 350px;
+  margin: 32px auto;
+  padding: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.signup-page h1 {
+  margin-bottom: 25px;
+  font-size: 1.5rem;
+  color: #04AB5D;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+}
+.signup-page form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.signup-page input,
+.signup-page select {
+  padding: 8px 10px;
+  border: 1px solid #bbb;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-family: 'Montserrat', Arial, sans-serif;
+  background: #fafafa;
+}
+.signup-page input:focus,
+.signup-page select:focus {
+  border: 1.5px solid #04AB5D;
+  outline: none;
+}
+.signup-page button {
+  padding: 10px 0;
+  background: #04AB5D;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', Arial, sans-serif;
+  transition: background 0.2s;
+}
+.signup-page button:hover {
+  background: #038e4e;
+}
+.signup-page p {
+  margin-top: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
