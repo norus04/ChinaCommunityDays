@@ -1,10 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => (
   <nav className="navbar">
     <div className="navbar-logo">
-      <span className="logo-title">China Community Days</span>
-      <span className="logo-sub">est. 2004</span>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+          <img src="/images/China-Logo.png" alt="China Logo" className="china-logo" />
+        </Link>
+        <span className="logo-title">
+          China Community Days
+        </span>
+      </div>
     </div>
   </nav>
 );
