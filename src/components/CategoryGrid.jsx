@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const categories = [
   { label: 'EVENTS', image: '/images/Events.png' },
@@ -8,15 +9,23 @@ const categories = [
   { label: 'CONTACT', image: '/images/Contact.png' },
 ];
 
-const CategoryGrid = () => (
-  <div className="category-grid">
-    {categories.map((cat) => (
-      <div className="category-item" key={cat.label}>
-        <img className="category-image" src={cat.image} alt={cat.label} />
-        <div className="category-label">{cat.label}</div>
-      </div>
-    ))}
-  </div>
-);
+const CategoryGrid = () => {
+  const navigate = useNavigate();
+  return (
+    <div className="category-grid">
+      {categories.map((cat) => (
+        <div
+          className="category-item"
+          key={cat.label}
+          onClick={() => navigate(`/${cat.label.toLowerCase()}`)}
+          style={{ cursor: 'pointer' }}
+        >
+          <img className="category-image" src={cat.image} alt={cat.label} />
+          <div className="category-label">{cat.label}</div>
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default CategoryGrid; 
