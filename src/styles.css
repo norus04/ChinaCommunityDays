@@ -55,11 +55,12 @@ input, button {
   position: relative;
 }
 .navbar-logo {
-  position: absolute;
-  left: 160px;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  position: static;
+  margin: 0 auto;
 }
 .logo-title {
   font-size: 2.2rem;
@@ -72,23 +73,6 @@ input, button {
   color: #444;
   margin-top: -4px;
   font-family: 'EB Garamond', Garamond, Serif;
-}
-.navbar-links {
-  list-style: none;
-  display: flex;
-  gap: 48px;
-  margin-left: 350px;
-  padding: 0;
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-family: 'Montserrat', Arial, sans-serif;
-}
-.navbar-links li {
-  cursor: pointer;
-  transition: color 0.2s;
-}
-.navbar-links li:hover {
-  color: #04AB5D;
 }
 
 /* HeroSection styles */
@@ -224,19 +208,6 @@ input, button {
     align-items: stretch;
     padding: 0 8px;
     min-height: 60px;
-  }
-  .navbar-logo {
-    position: static;
-    align-items: center;
-    margin-bottom: 8px;
-    left: 0;
-  }
-  .navbar-links {
-    gap: 16px;
-    font-size: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 0;
   }
   .category-grid {
     gap: 12px;
