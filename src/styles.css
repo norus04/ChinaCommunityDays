@@ -16,7 +16,6 @@ input, button {
   font-family: inherit;
 }
 
-/* TopBanner styles */
 .top-banner {
   background: #04AB5D;
   color: #fff;
@@ -43,7 +42,6 @@ input, button {
   max-width: none;
 }
 
-/* Navbar styles */
 .navbar {
   background: #fff;
   display: flex;
@@ -75,7 +73,6 @@ input, button {
   font-family: 'EB Garamond', Garamond, Serif;
 }
 
-/* HeroSection styles */
 .hero-section {
   position: relative;
   height: 400px;
@@ -141,7 +138,6 @@ input, button {
   color: #04AB5D;
 }
 
-/* CategoryGrid styles */
 .category-grid {
   display: flex;
   justify-content: center;
@@ -204,7 +200,7 @@ input, button {
 }
 .signup-page h1 {
   margin-bottom: 25px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: #04AB5D;
   font-family: 'Montserrat', Arial, sans-serif;
   text-align: center;
@@ -263,12 +259,11 @@ input, button {
 }
 .contact-page h1 {
   margin-bottom: 25px;
-  font-size: 1.7rem;
+  font-size: 1.8rem;
   color: #04AB5D;
   font-family: 'Montserrat', Arial, sans-serif;
   text-align: center;
 }
-
 .contact-email {
   display: flex;
   align-items: center;
@@ -285,6 +280,39 @@ input, button {
   padding: 0;
   display: flex;
   align-items: center;
+}
+
+.pictures-page {
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+  color: #04AB5D;
+  font-family: 'Montserrat', Arial, sans-serif;
+  text-align: center;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  margin-top: 32px;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.gallery-item {
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 @media (max-width: 900px) {
@@ -340,5 +368,19 @@ input, button {
   .search-btn {
     font-size: 1.3rem;
     padding: 0 4px;
+  }
+  .china-logo {
+    height: 80px;
+    margin-right: 16px;
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .logo-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-family: 'EB Garamond', Garamond, Serif;
   }
 }
