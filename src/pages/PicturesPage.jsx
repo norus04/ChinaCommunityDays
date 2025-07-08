@@ -36,7 +36,7 @@ const PicturesPage = () => {
 
   return (
     <div className="pictures-page">
-      <h1>Gallery</h1>
+      <h1>Pictures</h1>
       <div className="gallery-grid">
         {shuffledImages.map((src, idx) => (
           <div className="gallery-item" key={idx}>

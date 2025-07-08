@@ -7,6 +7,7 @@ const categories = [
   { label: 'SIGN-UP', image: '/images/Sign-Up.png' },
   { label: 'PICTURES', image: '/images/Pictures.png' },
   { label: 'CONTACT', image: '/images/Contact.png' },
+  { label: 'ABOUT', image: '/images/About.png' },
 ];
 
 const CategoryGrid = () => {
