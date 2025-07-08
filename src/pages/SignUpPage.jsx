@@ -68,6 +68,9 @@ const SignUpPage = () => {
           <option value="boat parade">Boat Parade</option>
           <option value="battle of the buns">Battle of the Buns</option>
           <option value="blow-up obstacle course race">Blow-Up Obstacle Course Race</option>
+          <option value="scavenger hunt">Scavenger Hunt</option>
+          <option value="fishing derby">Fishing Derby</option>
+          <option value="yellow brick road concert">Yellow Brick Road Concert</option>
           <option value="volunteer">Volunteer</option>
         </select>
         <button type="submit">Submit</button>
