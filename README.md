@@ -1,24 +1,13 @@
 # China Community Days Website
-
-A full-stack website to promote China Community Days, featuring:
-- Event information
-- Business spotlight section
-- Community photo uploads (with moderation)
-- Sign-up forms
-
-## Stack
-- React (frontend)
-- Node.js + Express.js (backend)
-- MongoDB (database)
+A modern website for China Community Days, featuring event info, vendor listings, sign-ups, community photos, etc.
 
 ## Features
-- Responsive design
+- Responsive React frontend
 - Modern, mobile-friendly UI
-- Navigation bar
-- Hero section includes search bar
-- Categorized buttons for Events, Businesses, Pictures, Sign-Ups
+- Easy navigation
+- SEO
 
-## Customization
-- Update event info in `src/components/TopBanner.jsx`
-- Add or edit categories in `src/components/CategoryGrid.jsx`
-- Change contact email in `src/components/Footer.jsx`
+## Tech Stack
+- React (frontend)
+- Firebase (sign-up form backend)
+- CSS for styling and layout
