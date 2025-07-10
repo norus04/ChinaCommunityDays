@@ -4,7 +4,7 @@ const AboutPage = () => (
   <div
     className="about-page"
     style={{
-      background: "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('/images/AboutBackground.jpg') center center/cover no-repeat",
+      background: "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('/images/About-Background.jpg') center center/cover no-repeat",
       minHeight: "100vh",
       position: "relative"
     }}
