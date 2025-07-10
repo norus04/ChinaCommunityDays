@@ -5,7 +5,7 @@ const vendors = [
   { name: 'Masons', description: 'Burgers' },
   { name: "Piggy Sue's Food Truck", description: 'Fried ice cream + bacon steak skewers' },
   { name: 'Raiders Sugarhouse', description: 'Maple syrup + cotton candy' },
-  { name: 'Party Polooga' },
+  { name: 'Party Palooga' },
   { name: 'Tickles the Clown', description: 'Entertainment' },
   { name: 'Sandcastle Entertainment', description: 'Water slide + bouncy house' },
   { name: 'Make Em Your Way', description: 'Foam pit' },
