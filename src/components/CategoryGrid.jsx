@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 
 const categories = [
   { label: 'EVENTS', image: '/images/Events.png' },
-  { label: 'BUSINESSES', image: '/images/Businesses.png' },
+  { label: 'VENDORS', image: '/images/Vendors.png' },
   { label: 'SIGN-UP', image: '/images/Sign-Up.png' },
   { label: 'PICTURES', image: '/images/Pictures.png' },
   { label: 'CONTACT', image: '/images/Contact.png' },

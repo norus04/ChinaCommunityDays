@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import CategoryGrid from './components/CategoryGrid';
 import EventsPage from './pages/EventsPage';
-import BusinessesPage from './pages/BusinessesPage';
+import VendorsPage from './pages/VendorsPage';
 import SignUpPage from './pages/SignUpPage';
 import PicturesPage from './pages/PicturesPage';
 import ContactPage from './pages/ContactPage';
@@ -25,7 +25,7 @@ function App() {
           </>
         } />
         <Route path="/events" element={<EventsPage />} />
-        <Route path="/businesses" element={<BusinessesPage />} />
+        <Route path="/vendors" element={<VendorsPage />} />
         <Route path="/sign-up" element={<SignUpPage />} />
         <Route path="/pictures" element={<PicturesPage />} />
         <Route path="/contact" element={<ContactPage />} />
