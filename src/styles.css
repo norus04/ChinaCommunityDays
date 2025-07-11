@@ -532,7 +532,7 @@ input, button {
     text-align: center;
   }
   .vendors-title {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .vendors-card {
     padding: 18px 10px 14px 10px;
@@ -545,10 +545,10 @@ input, button {
     padding: 10px;
   }
   .events-day {
-    padding: 14px 6px 10px 6px;
+    padding: 14px 24px 10px 24px;
   }
   .events-title {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
   }
   .see-events-btn {
     font-size: 1rem;
