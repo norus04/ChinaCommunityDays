@@ -64,15 +64,31 @@ const SignUpPage = () => {
           required
         >
           <option value="" disabled>Select</option>
-          <option value="pickleball">Pickleball</option>
-          <option value="boat parade">Boat Parade</option>
-          <option value="cheeseburger challenge">Cheeseburger Challenge</option>
-          <option value="blow-up obstacle course race">Blow-Up Obstacle Course Race</option>
-          <option value="scavenger hunt">Scavenger Hunt</option>
-          <option value="fishing derby">Fishing Derby</option>
-          <option value="yellow brick road concert">Yellow Brick Road Concert</option>
-          <option value="regatta boat race">Regatta Boat Race</option>
-          <option value="volunteer">Volunteer</option>
+          <option value="Music by Brian Plato">Music by Brian Plato</option>
+          <option value="Battle of the Buns (Cheeseburger Challenge)">Battle of the Buns (Cheeseburger Challenge)</option>
+          <option value="Community BBQ">Community BBQ</option>
+          <option value="Music by Yellow Brick Road (Elton John Tribute Band)">Music by Yellow Brick Road (Elton John Tribute Band)</option>
+          <option value="PTO Color Run">PTO Color Run</option>
+          <option value="Car Cruize-In">Car Cruize-In</option>
+          <option value="Vendors & Booths">Vendors & Booths</option>
+          <option value="Field Day">Field Day</option>
+          <option value="Blow-Up Costume Race">Blow-Up Costume Race</option>
+          <option value="Food Booths">Food Booths</option>
+          <option value="Boat Regatta">Boat Regatta</option>
+          <option value="Pickleball Tourney">Pickleball Tourney</option>
+          <option value="Tickles the Clown">Tickles the Clown</option>
+          <option value="Party Palooga">Party Palooga</option>
+          <option value="Foam Pit">Foam Pit</option>
+          <option value="China Fire Truck">China Fire Truck</option>
+          <option value="Carnival">Carnival</option>
+          <option value="Lighted Boat Parade">Lighted Boat Parade</option>
+          <option value="Laser Show by Dynamicks FX">Laser Show by Dynamicks FX</option>
+          <option value="Music by The Laura Hudson Project">Music by The Laura Hudson Project</option>
+          <option value="Church Service">Church Service</option>
+          <option value="Fishing Derby">Fishing Derby</option>
+          <option value="Scavenger Hunt">Scavenger Hunt</option>
+          <option value="Forest Walk (Short/Long)">Forest Walk (Short/Long)</option>
+          <option value="Volunteer">Volunteer</option>
         </select>
         <button type="submit">Submit</button>
       </form>
