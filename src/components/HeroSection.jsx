@@ -1,13 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => (
   <section className="hero-section">
     <div className="hero-bg" />
     <div className="hero-content">
-      <div className="search-bar">
-        <input type="text" placeholder="Search this site" />
-        <button className="search-btn">→</button>
-      </div>
+      <Link to="/events" className="see-events-btn">See Events</Link>
     </div>
   </section>
 );
