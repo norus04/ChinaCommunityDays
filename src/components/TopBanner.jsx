@@ -16,7 +16,7 @@ const TopBanner = () => {
   return (
     <div className="top-banner">
       <div className="banner-left"></div>
-      <div className="banner-center">China Community Days is set for August 1-3, 2025.</div>
+      <div className="banner-center">China Community Days is set for August 1 - 3, 2025.</div>
       <div className="weather-widget">
         {weather !== null ? `${weather}°F` : '...'}
       </div>
