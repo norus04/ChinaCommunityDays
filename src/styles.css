@@ -248,7 +248,6 @@ input, button {
   margin-top: 8px;
   font-size: 1.2rem;
   text-align: center;
-  text-decoration: none;
 }
 .contact-facebook {
   display: flex;
@@ -524,13 +523,10 @@ input, button {
     letter-spacing: 1px;
     font-family: 'EB Garamond', Garamond, Serif;
   }
-  .pictures-page {
-    margin-top: 52px;
-    margin-bottom: 25px;
-    font-size: 0.9rem;
-    color: #04AB5D;
-    font-family: 'Montserrat', Arial, sans-serif;
-    text-align: center;
+  .gallery-grid {
+    grid-template-columns: repeat(3, 1fr) !important;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .vendors-title {
     font-size: 1.8rem;
