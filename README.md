@@ -5,7 +5,6 @@ A modern website for China Community Days, featuring event info, vendor listings
 - Responsive React frontend
 - Modern, mobile-friendly UI
 - Easy navigation
-- SEO
 
 ## Tech Stack
 - React (frontend)

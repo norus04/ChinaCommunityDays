@@ -40,7 +40,7 @@ const PicturesPage = () => {
       <div className="gallery-grid">
         {shuffledImages.map((src, idx) => (
           <div className="gallery-item" key={idx}>
-            <img src={src} alt={`Gallery ${idx + 1}`} />
+            <img src={src} />
           </div>
         ))}
       </div>

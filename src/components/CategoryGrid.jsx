@@ -21,7 +21,7 @@ const CategoryGrid = () => {
           onClick={() => navigate(`/${cat.label.toLowerCase()}`)}
           style={{ cursor: 'pointer' }}
         >
-          <img className="category-image" src={cat.image} alt={cat.label} />
+          <img className="category-image" src={cat.image} />
           <div className="category-label">{cat.label}</div>
         </div>
       ))}

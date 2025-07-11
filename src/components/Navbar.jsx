@@ -6,7 +6,7 @@ const Navbar = () => (
     <div className="navbar-logo">
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <Link to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
-          <img src="/images/China-Logo.png" alt="China Logo" className="china-logo" />
+          <img src="/images/China-Logo.png" className="china-logo" />
         </Link>
         <span className="logo-title">
           China Community Days

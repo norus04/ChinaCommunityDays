@@ -16,10 +16,9 @@ const ContactPage = () => {
         setTimeout(() => setCopied(false), 1200);
         return;
       } catch (err) {
-        // fallback below
       }
     }
-    // Fallback for older browsers/mobile
+    // Fallback for mobile
     if (textareaRef.current) {
       textareaRef.current.value = email;
       textareaRef.current.style.display = 'block';
@@ -29,7 +28,7 @@ const ContactPage = () => {
         setCopied(true);
         setTimeout(() => setCopied(false), 1200);
       } catch (err) {
-        // fallback failed, do nothing
+        // Fallback failed, do nothing
       }
       textareaRef.current.style.display = 'none';
     }
@@ -41,7 +40,6 @@ const ContactPage = () => {
       <p className="contact-email">
         <img
           src="/images/Gmail-Logo.png"
-          alt="Email"
           style={{ width: 48, height: 48, marginRight: 8, verticalAlign: 'middle' }}
         />
         <span>{email}</span>
@@ -67,7 +65,6 @@ const ContactPage = () => {
       <p className="contact-facebook">
         <img
           src="/images/Facebook-Logo.png"
-          alt="Facebook"
           style={{ width: 32, height: 32, marginRight: 8, verticalAlign: 'middle' }}
         />
         <a href={facebookUrl} target="_blank" rel="noopener noreferrer">
@@ -77,7 +74,6 @@ const ContactPage = () => {
       <p className="town-website">
         <img
           src="/images/China-Logo.png"
-          alt="Website"
           style={{ width: 48, height: 38, marginRight: 8, verticalAlign: 'middle' }}
         />
         <a href={townWebsite} target="_blank" rel="noopener noreferrer">
