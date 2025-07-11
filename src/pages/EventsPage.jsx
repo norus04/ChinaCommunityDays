@@ -43,22 +43,34 @@ const events = [
 ];
 
 const EventsPage = () => (
-  <div className="events-page">
-    <h1 className="events-title">Events Schedule</h1>
-    <div className="events-schedule">
-      {events.map((day) => (
-        <section key={day.day} className="events-day">
-          <h2 className="events-day-title">{day.day}</h2>
-          <ul className="events-list">
-            {day.items.map((event, idx) => (
-              <li key={idx} className="events-item">
-                <span className="events-time">{event.time}</span>
-                <span className="events-name">{event.title}</span>
-              </li>
-            ))}
-          </ul>
-        </section>
-      ))}
+  <div
+    style={{
+      background: "linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)), url('/images/Events-Background.jpg') center center/cover no-repeat",
+      minHeight: "100vh",
+      width: "100vw",
+      position: "relative",
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "flex-start"
+    }}
+  >
+    <div className="events-page">
+      <h1 className="events-title">Events Schedule</h1>
+      <div className="events-schedule">
+        {events.map((day) => (
+          <section key={day.day} className="events-day">
+            <h2 className="events-day-title">{day.day}</h2>
+            <ul className="events-list">
+              {day.items.map((event, idx) => (
+                <li key={idx} className="events-item">
+                  <span className="events-time">{event.time}</span>
+                  <span className="events-name">{event.title}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+      </div>
     </div>
   </div>
 );
