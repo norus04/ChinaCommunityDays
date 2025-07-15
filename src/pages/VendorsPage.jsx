@@ -16,6 +16,7 @@ const vendors = [
   { name: 'South China American Legion', description: 'Supporting veterans with food and info' },
   { name: 'Maine Photo Works', description: 'Local photography and videography' },
   { name: 'Sy and Lei Laser Engraving', description: 'Laser-cut and engraved gifts' },
+  { name: 'China Football', description: 'Youth football program and community engagement' },
 ];
 
 const VendorsPage = () => (
