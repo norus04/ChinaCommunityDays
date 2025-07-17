@@ -11,12 +11,15 @@ const vendors = [
   { name: 'Make Em Your Way', description: 'Running the foam pit' },
   { name: 'China Community Garden', description: 'Fresh, local produce grown by the community' },
   { name: 'R & F Design', description: 'Handmade crafts and custom creations' },
-  { name: 'Bout Creating', description: 'Creative goods from a local artisan' },
+  { name: 'Bout Creating', description: 'Creative goods from a local' },
   { name: 'Make It Sweet Bakery', description: 'Homemade baked goods and sweet treats' },
   { name: 'South China American Legion', description: 'Supporting veterans with food and info' },
   { name: 'Maine Photo Works', description: 'Local photography and videography' },
   { name: 'Sy and Lei Laser Engraving', description: 'Laser-cut and engraved gifts' },
   { name: 'China Football', description: 'Youth football program and community engagement' },
+  { name: 'Brown Eyed Bling', description: 'Bling, jewelry, and accesories' },
+  { name: "Stephanilla's Creative Creations", description: 'Unique goods and candles' },
+  { name: 'Wood Carving Demonstration', description: 'Live wood carving demonstration by Dennis Parlin' },
 ];
 
 const VendorsPage = () => (
