@@ -20,6 +20,7 @@ const vendors = [
   { name: 'Brown Eyed Bling', description: 'Bling, jewelry, and accesories' },
   { name: "Stephanilla's Creative Creations", description: 'Unique goods and candles' },
   { name: 'Wood Carving Demonstration', description: 'Live wood carving demonstration by Dennis Parlin' },
+  { name: 'China Community Church', description: 'Local church supporting the community' },
 ];
 
 const VendorsPage = () => (
