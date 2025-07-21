@@ -87,7 +87,8 @@ const SignUpPage = () => {
           <option value="Church Service">Church Service</option>
           <option value="Fishing Derby">Fishing Derby</option>
           <option value="Scavenger Hunt">Scavenger Hunt</option>
-          <option value="Forest Walk (Short/Long)">Forest Walk (Short/Long)</option>
+          <option value="Forest Walk (2 hour walk)">Forest Walk (2 hour walk)</option>
+          <option value="Forest Walk (1 hour walk)">Forest Walk (1 hour walk)</option>
           <option value="Volunteer">Volunteer</option>
         </select>
         <button type="submit">Submit</button>
