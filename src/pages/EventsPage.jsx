@@ -25,7 +25,7 @@ const events = [
       { time: '10:00 AM – 2:00 PM', title: 'Party Palooga @China Ballfields' },
       { time: '10:00 AM – 3:00 PM', title: 'Foam Pit @China Ballfields' },
       { time: '10:00 AM – 3:00 PM', title: 'China Fire Truck @China Ballfields' },
-      { time: 'All Day', title: 'Carnival @Causeway from Central Church' },
+      { time: '4:00 PM - 8:00 PM', title: 'Carnival @Causeway from Central Church' },
       { time: '8:00 PM', title: 'Lighted Boat Parade @Causeway from Central Church' },
       { time: '9:00 PM – 10:00 PM', title: 'Laser Show by Dynamicks FX @Causeway from Central Church' },
       { time: '6:00 PM – 9:00 PM', title: 'Music by The Laura Hudson Project @Causeway from Central Church' },
