@@ -8,10 +8,10 @@ const vendors = [
   { name: 'China Football', description: 'Youth football program and community engagement' },
   { name: 'China Four Seasons Club', description: 'Serving hot dogs and supporting local recreation' },
   { name: "Darling's Ice Cream Truck", description: 'Serving classic ice cream truck treats' },
-  { name: 'Make Em Your Way', description: 'Running the foam pit' },
-  { name: 'Make It Sweet Bakery', description: 'Homemade baked goods and sweet treats' },
   { name: 'Maine Photo Works', description: 'Local photography and videography' },
   { name: 'Mainely Hats & Faithful Creations', description: 'Hats, apparel, and accessories' },
+  { name: 'Make Em Your Way', description: 'Running the foam pit' },
+  { name: 'Make It Sweet Bakery', description: 'Homemade baked goods and sweet treats' },
   { name: 'Masons', description: 'Grilling up burgers' },
   { name: 'Party Palooga', description: 'Inflatables and party fun for all ages' },
   { name: "Piggy Sue's Food Truck", description: 'Fried ice cream and bacon steak skewers' },
@@ -25,6 +25,7 @@ const vendors = [
   { name: 'Tickles the Clown', description: 'Interactive kids’ entertainment and balloon art' },
   { name: 'Wood Carving Demonstration', description: 'Live wood carving demonstration by Dennis Parlin' },
 ];
+
 
 const VendorsPage = () => (
   <div className="vendors-page">
