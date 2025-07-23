@@ -11,6 +11,7 @@ const vendors = [
   { name: 'Make Em Your Way', description: 'Running the foam pit' },
   { name: 'Make It Sweet Bakery', description: 'Homemade baked goods and sweet treats' },
   { name: 'Maine Photo Works', description: 'Local photography and videography' },
+  { name: 'Mainely Hats & Faithful Creations', description: 'Hats, apparel, and accessories' },
   { name: 'Masons', description: 'Grilling up burgers' },
   { name: 'Party Palooga', description: 'Inflatables and party fun for all ages' },
   { name: "Piggy Sue's Food Truck", description: 'Fried ice cream and bacon steak skewers' },
