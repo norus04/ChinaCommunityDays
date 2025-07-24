@@ -3,10 +3,12 @@ import React from 'react';
 const vendors = [
   { name: 'Bout Creating', description: 'Creative goods from a local' },
   { name: 'Brown Eyed Bling', description: 'Bling, jewelry, and accesories' },
+  { name: 'Chaos, Coffee & Creativity Studio', description: 'Creative studio offering custom designs' },
   { name: 'China Community Church', description: 'Local church supporting the community' },
   { name: 'China Community Garden', description: 'Fresh, local produce grown by the community' },
   { name: 'China Football', description: 'Youth football program and community engagement' },
   { name: 'China Four Seasons Club', description: 'Serving hot dogs and supporting local recreation' },
+  { name: 'China Regional Church of the Nazarene', description: 'Regional church serving the community' },
   { name: "Darling's Ice Cream Truck", description: 'Serving classic ice cream truck treats' },
   { name: 'Maine Photo Works', description: 'Local photography and videography' },
   { name: 'Mainely Hats & Faithful Creations', description: 'Hats, apparel, and accessories' },
