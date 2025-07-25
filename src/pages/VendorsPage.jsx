@@ -15,6 +15,7 @@ const vendors = [
   { name: 'Make Em Your Way', description: 'Running the foam pit' },
   { name: 'Make It Sweet Bakery', description: 'Homemade baked goods and sweet treats' },
   { name: 'Masons', description: 'Grilling up burgers' },
+  { name: "Memaw's Creations & More", description: 'Handcrafted goods and unique creations' },
   { name: 'Party Palooga', description: 'Inflatables and party fun for all ages' },
   { name: "Piggy Sue's Food Truck", description: 'Fried ice cream and bacon steak skewers' },
   { name: 'R & F Design', description: 'Handmade crafts and custom creations' },
