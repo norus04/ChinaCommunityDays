@@ -1,7 +1,6 @@
 import React from 'react';
 
 const vendors = [
-  { name: 'Bout Creating', description: 'Creative goods from a local' },
   { name: 'Brown Eyed Bling', description: 'Bling, jewelry, and accesories' },
   { name: 'Chaos, Coffee & Creativity Studio', description: 'Creative studio offering custom designs' },
   { name: 'China Community Church', description: 'Local church supporting the community' },
