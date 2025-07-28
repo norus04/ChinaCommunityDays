@@ -37,7 +37,7 @@ const events = [
     day: 'Sunday, August 3rd',
     items: [
       { time: '7:30 AM', title: 'Church Service @China Ballfields' },
-      { time: '9:00 AM', title: 'Fishing Derby @China Lake' },
+      { time: '9:00 AM', title: 'Youth Fishing Derby @China Lake' },
       { time: '12:00 PM', title: 'Scavenger Hunt @Causeway' },
       { time: '1:00 PM', title: 'Forest Walk (2 hour walk) @China Primary School Bus Circle' },
       { time: '3:30 PM', title: 'Forest Walk (1 hour walk) @China Primary School Bus Circle' },
