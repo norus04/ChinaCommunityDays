@@ -7,7 +7,7 @@ const events = [
       { time: '4:30 PM – 5:30 PM', title: 'Music by Brian Plato @China Ballfields' },
       { time: '5:00 PM – 6:00 PM', title: 'Battle of the Buns (Cheeseburger Challenge) @China Ballfields' },
       { time: '5:00 PM – 6:00 PM', title: 'Community BBQ @China Ballfields' },
-      { time: '6:00 PM – 8:30 PM', title: 'Yellow Brick Road Show (Elton John Tribute Band) @China Ballfields' },
+      { time: '6:00 PM – 8:30 PM', title: 'Music by Yellow Brick Road (Elton John Tribute Band) @China Ballfields' },
     ],
   },
   {
