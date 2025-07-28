@@ -7,7 +7,7 @@ const events = [
       { time: '4:30 PM – 5:30 PM', title: 'Music by Brian Plato @China Ballfields' },
       { time: '5:00 PM – 6:00 PM', title: 'Battle of the Buns (Cheeseburger Challenge) @China Ballfields' },
       { time: '5:00 PM – 6:00 PM', title: 'Community BBQ @China Ballfields' },
-      { time: '6:00 PM – 8:30 PM', title: 'Music by Yellow Brick Road (Elton John Tribute Band) @China Ballfields' },
+      { time: '6:00 PM – 8:30 PM', title: 'Yellow Brick Road Show (Elton John Tribute Band) @China Ballfields' },
     ],
   },
   {
@@ -37,7 +37,7 @@ const events = [
     day: 'Sunday, August 3rd',
     items: [
       { time: '7:30 AM', title: 'Church Service @China Ballfields' },
-      { time: '9:00 AM', title: 'Youth Fishing Derby @China Lake' },
+      { time: '9:00 AM', title: 'Youth Fishing Derby (15 and younger) @China Lake' },
       { time: '12:00 PM', title: 'Scavenger Hunt @Causeway' },
       { time: '1:00 PM', title: 'Forest Walk (2 hour walk) @China Primary School Bus Circle' },
       { time: '3:30 PM', title: 'Forest Walk (1 hour walk) @China Primary School Bus Circle' },

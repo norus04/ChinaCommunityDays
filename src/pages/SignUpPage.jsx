@@ -70,7 +70,7 @@ const SignUpPage = () => {
           <option value="Car Cruize-In">Car Cruize-In</option>
           <option value="Forest Walk (1 hour walk)">Forest Walk (1 hour walk)</option>
           <option value="Forest Walk (2 hour walk)">Forest Walk (2 hour walk)</option>
-          <option value="Music by Yellow Brick Road (Elton John Tribute Band)">Music by Yellow Brick Road (Elton John Tribute Band)</option>
+          <option value="Yellow Brick Road Show (Elton John Tribute Band)">Yellow Brick Road Show (Elton John Tribute Band)</option>
           <option value="Pickleball Tourney">Pickleball Tourney</option>
           <option value="PTO Color Run">PTO Color Run</option>
           <option value="Volunteer">Volunteer</option>
