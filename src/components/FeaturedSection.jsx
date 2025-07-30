@@ -5,6 +5,7 @@ const FeaturedSection = () => {
     <div>
       <h2 className="featured-title">Featured</h2>
       <div className="featured-section-container">
+        <img src="/images/Yellow-Brick-Road.jpg" className="featured-section-img" />
         <img src="/images/Yard-Sale-Trail.jpg" className="featured-section-img" />
         <img src="/images/ATV-Glow-Ride.jpg" className="featured-section-img" />
         <img src="/images/Piggy-Sues.jpg" className="featured-section-img" />
