@@ -24,6 +24,7 @@ const vendors = [
   { name: "Stephanilla's Creative Creations", description: 'Unique goods and candles' },
   { name: 'Sy and Lei Laser Engraving', description: 'Laser-cut and engraved gifts' },
   { name: 'The Happy Kitchen Mobile Cafe', description: 'Serving delicious food' },
+  { name: 'Thurston Park', description: "China's local park" },
   { name: 'Tickles the Clown', description: 'Interactive kids’ entertainment and balloon art' },
   { name: 'Wood Carving Demonstration', description: 'Live wood carving demonstration by Dennis Parlin' },
 ];

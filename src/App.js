@@ -4,6 +4,7 @@ import TopBanner from './components/TopBanner';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import CategoryGrid from './components/CategoryGrid';
+import FeaturedSection from './components/FeaturedSection';
 import EventsPage from './pages/EventsPage';
 import VendorsPage from './pages/VendorsPage';
 import SignUpPage from './pages/SignUpPage';
@@ -22,6 +23,7 @@ function App() {
           <>
             <HeroSection />
             <CategoryGrid />
+            <FeaturedSection />
           </>
         } />
         <Route path="/events" element={<EventsPage />} />
